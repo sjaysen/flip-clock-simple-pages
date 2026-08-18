@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="App Preview for Flip Clock Simple.">
+  <title>Flip Clock Simple — App Preview</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .preview-frame { max-width: 390px; margin: 30px auto 0; }
+    video { display: block; width: 100%; border: 1px solid var(--line); border-radius: 28px; background: #000; box-shadow: 0 22px 55px rgba(0, 0, 0, .22); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="shell header-inner">
+      <a class="brand" href="index.html"><span class="clock-mark">12:34</span> Flip Clock Simple</a>
+      <nav aria-label="Main navigation"><a href="privacy.html">Privacy</a><a href="support.html">Support</a></nav>
+    </div>
+  </header>
+  <main class="shell">
+    <p class="eyebrow">App Preview</p>
+    <h1>See the timers in motion.</h1>
+    <p class="lede">A real simulator recording of the clock, running Pomodoro timer, and running meditation timer.</p>
+    <div class="preview-frame">
+      <video controls playsinline preload="metadata">
+        <source src="flip-clock-simple-preview.mov" type="video/quicktime">
+        Your browser does not support this video.
+      </video>
+    </div>
+  </main>
+  <footer class="shell">
+    <span>© 2026 Flip Clock Simple</span>
+    <div class="controls">
+      <button type="button" data-theme-toggle>Dark mode</button>
+      <label>Page width <input data-width-slider type="range" min="700" max="1600" step="50" value="900"></label>
+    </div>
+  </footer>
+  <script src="site.js"></script>
+</body>
+</html>
